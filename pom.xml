@@ -90,21 +90,21 @@
                 <version>2.5.1</version>
             </plugin>
             <plugin>
-<groupId>com.googlecode.todomap</groupId>
-<artifactId>maven-jettygzip-plugin</artifactId>
-<version>0.0.4</version>
-<configuration>
-<webappDirectory>target/classes</webappDirectory>
-<outputDirectory>target/classes</outputDirectory>
-</configuration>
-<executions>
-<execution>
-<phase>prepare-package</phase>
-<goals>
-<goal>process</goal>
-</goals>
-</execution>
-</executions>
+                <groupId>com.googlecode.todomap</groupId>
+                <artifactId>maven-jettygzip-plugin</artifactId>
+                <version>0.0.4</version>
+                <configuration>
+                    <webappDirectory>target/classes</webappDirectory>
+                    <outputDirectory>target/classes</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>process</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
